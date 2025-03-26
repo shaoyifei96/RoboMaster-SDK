@@ -26,8 +26,8 @@ if __name__ == '__main__':
     ep_camera = ep_robot.camera
 
     # 显示十秒图传
-    ep_camera.start_video_stream(display=True, resolution=camera.STREAM_360P)
-    time.sleep(10)
+    ep_camera.start_video_stream(display=True, resolution=camera.STREAM_720P)
+    time.sleep(5)
     ep_camera.stop_video_stream()
 
     ep_robot.close()

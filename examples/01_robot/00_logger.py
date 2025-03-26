@@ -22,7 +22,7 @@ if __name__ == '__main__':
     robomaster.enable_logging_to_file()
 
     # 如果本地IP 自动获取不正确，手动指定本地IP地址
-    # robomaster.config.LOCAL_IP_STR = "192.168.2.20"
+    robomaster.config.LOCAL_IP_STR = "192.168.1.229"
 
     ep_robot = robot.Robot()
 
